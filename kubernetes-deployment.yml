@@ -20,7 +20,7 @@ spec:
         app: jpetstore-app
     spec:
       containers:
-      - image: "docker.io/$REPO_NAME/oke-jpetstore:v01"
+      - image: 'docker.io/$REPO_NAME/oke-jpetstore:v01'
         imagePullPolicy: Always
         name: jpetstore-app-container
         ports:
